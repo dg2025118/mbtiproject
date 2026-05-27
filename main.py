@@ -928,5 +928,5 @@ elif st.session_state.stage == "result":
     for k1, k2, label1, label2 in axes:
         pct = get_tendency_percent(scores, k1, k2)
         pct2 = 100 - pct
-        chosen = k1 if pct >= 50
+        chosen = k1 if else pct >= 50
    
